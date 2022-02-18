@@ -1,0 +1,52 @@
+.hero-container {
+    background: url("https://instructory.net/assets/images/bg-1.png");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 790px;
+    color: #fff;
+}
+.hero-h3{
+    font-size:22px;
+    letter-spacing:5px;
+    line-height:40px;
+    padding-top:80px;
+    margin-bottom: 30px;
+}
+.hero-h1{
+    font-size:50px;
+    letter-spacing:3px;
+    line-height: 76px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.hero-p{
+    font-size:18px;
+    line-height:45px!important;
+   
+}
+.btn-st{
+    background-color:#ffa146!important;
+    border:none !important;
+    
+}
+.btn-sl{
+    background-color:#00a99d!important;
+    border:none !important;
+}
+.btn-st:hover{
+    background-color:transparent!important;
+    border:1px solid #ffa146!important;
+    color:#ffa146!important;
+}
+.btn-sl:hover{
+    background-color:transparent!important;
+    border:1px solid #00a99d!important;
+    color:#00a99d!important;
+}
+@media(max-width:991px){
+    .hero-container{
+        background-size: cover;
+        min-height:1000px;
+    }
+}
